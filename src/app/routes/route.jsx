@@ -5,9 +5,9 @@ import TablePage from '../pages/Table';
 import Instruction from '../pages/Instruction';
 import DeveloperPage from '../pages/DeveloperPage';
 
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom';
 
-export const routing = createBrowserRouter([
+export const routing = createHashRouter([
   {
     path: '/',
     element: <Auth />,
