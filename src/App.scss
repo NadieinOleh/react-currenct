@@ -1,0 +1,28 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover svg {
+  transition: transform 0.2s;
+  transform: translateX(5px);
+}
+
+th {
+  color: #5423e7;
+}
+
+td {
+  cursor: pointer;
+}
+
+$body-bg: #dff8ea;
+$primary: #5423e7;
+$secondary: #fdddf8;
+$info: #212326;
+$success: #2dca72;
+
+@import '~bootstrap/scss/bootstrap.scss';
